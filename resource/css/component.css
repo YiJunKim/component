@@ -2,6 +2,8 @@
 
 /*버튼 CSS*/
 @import url(button.css);
+/*버튼그룹 CSS*/
+@import url(button_group.css);
 /*dropdown CSS*/
 @import url(dropdown.css);
 
@@ -11,3 +13,4 @@ body{min-width: 1200px;}
 section{margin: 20px 0px; padding: 0 40px}
 h1 {font-weight:700; font-size:50px; text-align:left; margin: 10px 0px;}
 h2 {font-weight:700; font-size:30px; text-align:left; margin: 20px 5px; color: black}
+.droplayout{margin-bottom: 100px;}
