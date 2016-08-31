@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.label{
+   font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 1;
+    padding: 5px 25px;
+    width: 50px;
+    height: auto;
+}
+
+.label-sm{
+   font-size: 10px;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 1;
+    padding: 3px 15px;
+    width: 50px;
+    height: auto;
+}
+
+.label-default{
+   background-color: #cfcfcf;
+}
+.label-blue{
+   background-color: #337ab7;
+}
+.label-green{
+   background-color: #5cb85c;
+}
+.label-skyblue{
+   background-color: #5bc0de;
+}
+.label-yellow{
+   background-color: #f0ad4e;
+}
+.label-red{
+   background-color: #d9534f;
+}

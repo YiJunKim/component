@@ -8,11 +8,16 @@
 @import url(dropdown.css);
 /*inputbox CSS*/
 @import url(inputbox.css);
-
+/*label CSS*/
+@import url(label.css);
+/*text CSS*/
+@import url(text.css);
+/*thumbnails CSS*/
+@import url(thumbnails.css);
 
 .ex{width: 100%; height: auto; margin: 10px 0px;}
 body{min-width: 1200px;}
-section{margin: 20px 0px; padding: 0 40px}
-h1 {font-weight:700; font-size:50px; text-align:left; margin: 10px 0px;}
-h2 {font-weight:700; font-size:30px; text-align:left; margin: 20px 5px; color: black}
+section{width: 100%; margin: 20px 0px; padding: 0 40px;display: inline-block;}
 .droplayout{margin-bottom: 100px;}
+.left{width: 50%; height: auto; display: inline-block; float: left;}
+.right{width: 50%; height: auto; display: inline-block; float: right;}
