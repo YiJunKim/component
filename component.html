@@ -11,13 +11,94 @@
 
 
 <body>
+<!-- navbar start-->
+    <header>
+    <nav class="naviagtion">
+        <a href="#"><img class="nav-img" src="resource/image/logo.png">
+        </div></a>
+        <nav>
+
+        			<div class="dropdown">
+				<button class="dropbtn btn-blue">
+					Dropdown <span class="caret"></span>
+				</button>
+				<div class="dropdown-content">
+					<a href="#">Link 1</a> <a href="#">Link 2</a> <a href="#">Link
+						3</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn btn-green">
+					Dropdown <span class="caret"></span>
+				</button>
+				<div class="dropdown-content">
+					<a href="#">Link 1</a> <a href="#">Link 2</a> <a href="#">Link
+						3</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn btn-skyblue">
+					Dropdown <span class="caret"></span>
+				</button>
+				<div class="dropdown-content">
+					<a href="#">Link 1</a> <a href="#">Link 2</a> <a href="#">Link
+						3</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn btn-yellow">
+					Dropdown <span class="caret"></span>
+				</button>
+				<div class="dropdown-content">
+					<a href="#">Link 1</a> <a href="#">Link 2</a> <a href="#">Link
+						3</a>
+				</div>
+			</div>
+
+<!--        <ul>
+        <li>
+            <a href="#button" class=""><span>button</span></a>
+        </li>
+        <li>
+            <a href="#label-label" class=""><span>label</span></a>
+        </li>
+        <li>
+            <a href="#button_group" class=""><span>button_group</span></a>
+        </li>
+        <li>
+            <a href="#dropdownexample" class=""><span>드롭다운</span></a>
+        </li>
+        <li>
+            <a href="#Inputbox" class=""><span>inputbox</span></a>
+        </li>
+        <li>
+            <a href="#searchForm" class=""><span>searchForm</span></a>
+        </li>
+        <li>
+            <a href="#Inputbox" class=""><span>inputbox</span></a>
+        </li>
+        <li>
+            <a href="#paging" class=""><span>paging</span></a>
+        </li>-->
+        </ul>
+
+        </nav>
+        <div class="navigation-right">
+        <button type="button" class="btn btn-blue btn_basic">login</button>
+        <button type="button" class="btn btn-blue btn_basic">button</button>
+        </div>
+    </nav>
+    </header>
+
+<!-- navbar end-->
+
 	<article id="container">
 		<h3>컴포넌트</h3>
 		<hr>
 
 
 <!--버튼 start-->
-		<section class="button">
+		<section id="button">
 			<h4>Button</h4><br>
 			<div class="ex button_big">
 				<button type="button" class="btn btn-default btn_big">Button</button>
@@ -60,7 +141,7 @@
 
 
 <!--라벨 start-->
-        <section class="label-label">
+        <section id="label-label">
             <div class="left">
 			<h4>label</h4><br>
             <div class="ex label-base">
@@ -100,7 +181,7 @@
 
 
 <!--버튼그룹 start-->
-		<section class="button_group">
+		<section id="button_group">
 			<h4>Button group</h4><br>
 			<div class="btn-group" role="group" aria-label="big_button_group">
 				<button type="button" class="btn-default btn_big">Left</button>
@@ -127,7 +208,7 @@
 
 <!--드롭다운 start-->
 
-		<section class="droplayout">
+		<section id="dropdownexample">
 			<h4>드롭다운</h4><br>
 			<div class="dropdown">
 				<button class="dropbtn btn-default">
@@ -190,7 +271,8 @@
 <!--드롭다운 end-->
 <!--드롭다운 start-->
 
-		<section class="dropdownexample">
+		<section id="dropd-lineownexample">
+
 			<div class="dropdown dropdownbtn btn-groups">
 				<button type="button" class="btn-default ">Dropdown</button>
 				<button type="button" class="btn-default dropdown-toggle">
@@ -261,7 +343,7 @@
 
 
         <!--Inputbox start-->
-        <section>
+        <section id="Inputbox">
             <h4>inputbox</h4><br>
             <div class="left">
             <div class="inputbox-sm">
@@ -315,7 +397,7 @@
         <hr>
 
         <!-- searchform start-->
-        <section>
+        <section id="searchForm">
             <h4>searchform</h4><br>
             <div class="left">
 
@@ -370,6 +452,16 @@
             </div>
             </form>
 
+                <br>
+
+            <form id="" method="" onsubmit="">
+            <div class="searchform-sm">
+                <input type="text" class="sfinputbtn-sm" name="" value="" placeholder="Fullname">
+                <button class ="sfsubmit-sm" onclick="">
+                    GO
+                </button>
+            </div>
+            </form>
             </div>
 
 
@@ -383,15 +475,40 @@
 
 
 
-        <!-- start-->
-        <section>
-            <h4></h4>
-            <div class="">
-
+        <!-- 페이징 start-->
+        <section class="id">
+            <h4>pagination</h4><br>
+            <div class="paging">
+                <nav>
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                  </ul>
+                </nav>
             </div>
         </section>
+        <!-- 페이징 end-->
 
-        <!-- end-->
+
+        <hr>
+
+
+
+
+
 
 	</article>
 </body>

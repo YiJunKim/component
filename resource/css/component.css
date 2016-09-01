@@ -16,9 +16,18 @@
 @import url(thumbnails.css);
 /*searchform CSS*/
 @import url(searchform.css);
+/*pagination CSS*/
+@import url(pagination.css);
+/*navigation CSS*/
+@import url(navigation.css);
 
 .ex{width: 100%; height: auto; margin: 10px 0px;}
-body{min-width: 1200px;}
+body{min-width: 1200px; display: ;}
+body header{height: 100px;}
+article{
+    position: relative;
+    display: inline-block;
+}
 section{width: 100%; margin: 20px 0px; padding: 0 40px;display: inline-block;}
 .droplayout{margin-bottom: 100px;}
 .left{width: 50%; height: auto; display: inline-block; float: left;}
