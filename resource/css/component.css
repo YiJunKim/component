@@ -20,10 +20,11 @@
 @import url(pagination.css);
 /*navigation CSS*/
 @import url(navigation.css);
-
+/*table CSS*/
+@import url(table.css);
 .ex{width: 100%; height: auto; margin: 10px 0px;}
-body{min-width: 1200px; display: ;}
-body header{height: 100px;}
+body{min-width: ; display: ;}
+body header{height: 100px; display: block;}
 article{
     position: relative;
     display: inline-block;
