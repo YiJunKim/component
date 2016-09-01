@@ -1,0 +1,145 @@
+@charset "utf-8";
+/*IE selectbox 기본 화살표 제거 start */
+select::-ms-expand {
+    display: none;
+    border: none;
+}
+/*IE selectbox 기본 화살표 제거 end */
+select{
+    border: none;
+    -webkit-appearance: none; /*chrome 기본 화살표 제거 */
+    padding: 5px;
+}
+
+.searchform{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    height: 43px;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+}
+
+.sfdropbtn {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    height: 43px;
+}
+
+.sfdropdown {
+    position: relative;
+    display: inline-block;
+    border-right: 1px solid #cfcfcf;
+    padding: 0px 5px;
+}
+
+
+/* dropdown arrow */
+.sfcaret{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-right: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+
+}
+
+/* dropdown menu basic size end */
+
+
+.sfinputbtn-lg[type='text'],
+.sfinputbtn-lg[type='password'],
+.sfinputbtn-lg[type='search']{
+    padding: 5px 5px;
+    display: inline-block;
+    border: none;
+    width: 250px;
+    font-size: 20px;
+    text-indent: 15px;
+
+}
+
+.sfsubmit{
+    display: inline-block;
+    width:70px;
+    cursor: pointer;
+    font-size: 20px;
+    height: 43px;
+    border-left: 1px solid #cfcfcf;
+}
+
+
+
+/* searchform-sm start */
+
+
+.searchform-sm{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    height: 30px;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+}
+
+.sfdropbtn-sm {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px;
+    height: 30px;
+}
+
+.sfdropdown-sm {
+    position: relative;
+    display: inline-block;
+    border-right: 1px solid #cfcfcf;
+    padding: 0px 5px;
+}
+
+
+/* dropdown arrow */
+.sfcaret-sm{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-right: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+
+}
+
+/* dropdown menu basic size end */
+
+
+.sfinputbtn-sm[type='text'],
+.sfinputbtn-sm[type='password'],
+.sfinputbtn-sm[type='search']{
+    padding: 3px 3px;
+    display: inline-block;
+    border: none;
+    width: 250px;
+    font-size: 15px;
+    text-indent: 15px;
+
+}
+
+.sfsubmit-sm{
+    display: inline-block;
+    width:70px;
+    cursor: pointer;
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    border-left: 1px solid #cfcfcf;
+}
+
+
+
+/* searchform-sm end */
