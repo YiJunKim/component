@@ -8,20 +8,66 @@ input[type=email]::-ms-clear {
 	display: none;
 }
 /*IE Input 기본값 설정(input type이 text, email 인 경우 입력시 취소버튼 없앰--end*/
+
+
+/*inputbtn-sm start */
+.inputbtn-sm[type='text'],
+.inputbtn-sm[type='password'],
+.inputbtn-sm[type='search']{
+    display: block;
+    padding: 5px 6px;
+
+    height: 19px;
+    vertical-align: middle;
+    font-size: 12px;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+}
+/*inputbtn-sm end */
+/*inputbtn-defalut start */
+.inputbtn-defalut[type='text'],
+.inputbtn-defalut[type='password'],
+.inputbtn-defalut[type='search']{
+    display: block;
+    padding: 6px 11px;
+    height: 28px;
+    vertical-align: middle;
+    font-size: 15px;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+}
+/*inputbtn-defalut end */
+/*inputbtn-lg start */
+.inputbtn-lg[type='text'],
+.inputbtn-lg[type='password'],
+.inputbtn-lg[type='search']{
+    display: block;
+    padding: 6px 12px;
+    height: 43px;
+    vertical-align: middle;
+    font-size: 25px;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+}
+/*inputbtn-lg end */
+
+
 /*inputbox-sm start */
 .inputbox-sm{
     display: table;
     border-collapse: separate;
-    border: 1px solid #cfcfcf;
     border-radius: 3px;
 }
 
 .inputbox-head-sm{
     display: table-cell;
-    float: left;
     background-color: #eee;
-    border-right: 1px solid #cfcfcf;
-    padding: 3px 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: 1px solid #cfcfcf;
+    height: 25px;
+    padding: 2px 2px;
+    vertical-align: middle;
 }
 
 
@@ -32,15 +78,11 @@ input[type=email]::-ms-clear {
     background: url(../image/ico-total.png) no-repeat  -264px -38px;
     background-size: 600px 600px;
 }
-.inputbox-body-sm{
-    padding: 6px 10px;
+.inputbox-sm .inputbtn-sm{
     float: left;
-    width: 98px;
-    height: 19px;
-    display: table-cell;
-    vertical-align: middle;
-    border: none;
-    font-size: 12px;
+    border-left: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 /*inputbox-sm end */
 
@@ -48,7 +90,6 @@ input[type=email]::-ms-clear {
 .inputbox-defalut{
     display: table;
     border-collapse: separate;
-    border: 1px solid #cfcfcf;
     border-radius: 3px;
 }
 
@@ -56,8 +97,12 @@ input[type=email]::-ms-clear {
     display: table-cell;
     float: left;
     background-color: #eee;
-    border-right: 1px solid #cfcfcf;
-    padding: 5px 5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: 1px solid #cfcfcf;
+    height: 28px;
+    padding: 6px 6px;
+    vertical-align: middle;
 }
 
 
@@ -68,16 +113,10 @@ input[type=email]::-ms-clear {
     background: url(../image/ico-total.png) no-repeat  -326px -50px;
     background-size: 740px 740px;
 }
-.inputbox-body-defalut{
-    padding: 6px 10px;
-    float: left;
-    width: 159px;
-    height: 28px;
-    display: table-cell;
-    vertical-align: middle;
-    border: none;
-    font-size: 15px;
-    text-indent: 5px;
+.inputbox-defalut .inputbtn-defalut{
+    border-left: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;;
 }
 /*inputbox-defalut end */
 
@@ -86,16 +125,18 @@ input[type=email]::-ms-clear {
 .inputbox-lg{
     display: table;
     border-collapse: separate;
-    border: 1px solid #cfcfcf;
     border-radius: 3px;
 }
 
 .inputbox-head-lg{
     display: table-cell;
-    float: left;
     background-color: #eee;
-    border-right: 1px solid #cfcfcf;
-    padding: 10px 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: 1px solid #cfcfcf;
+    height: 35px;
+    padding: 9px 9px;
+    vertical-align: middle;
 }
 
 
@@ -106,52 +147,12 @@ input[type=email]::-ms-clear {
     background: url(../image/ico-total.png) no-repeat  -398px -60px;
     background-size: 900px 900px;
 }
-.inputbox-body-lg{
-    padding: 6px 10px;
+.inputbox-lg .inputbtn-lg{
     float: left;
-    width: 278px;
-    height: 43px;
-    display: table-cell;
-    vertical-align: middle;
-    border: none;
-    font-size: 25px;
-    text-indent: 5px;
+    border-left: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 /*inputbox-lg end */
 
-/*inputbtn-sm start */
-.inputbtn-sm[type='text'],
-.inputbtn-sm[type='password'],
-.inputbtn-sm[type='search']{
-    width: 98px;
-    height: 31px;
-    border: 1px solid #cfcfcf;
-    border-radius: 5px;
-    font-size: 12px;
-    text-indent: 5px;
-}
-/*inputbtn-sm end */
-/*inputbtn-defalut start */
-.inputbtn-defalut[type='text'],
-.inputbtn-defalut[type='password'],
-.inputbtn-defalut[type='search']{
-    width: 159px;
-    height: 28px;
-    border: 1px solid #cfcfcf;
-    border-radius: 5px;
-    font-size: 15px;
-    text-indent: 10px;
-}
-/*inputbtn-defalut end */
-/*inputbtn-lg start */
-.inputbtn-lg[type='text'],
-.inputbtn-lg[type='password'],
-.inputbtn-lg[type='search']{
-    width: 278px;
-    height: 43px;
-    border: 1px solid #cfcfcf;
-    border-radius: 5px;
-    font-size: 25px;
-    text-indent: 15px;
-}
-/*inputbtn-lg end */
+

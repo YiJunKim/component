@@ -18,7 +18,6 @@
 .tb-title>p{
 padding: 10px 5px;
 text-indent: 10px;
-;
 }
 
 .tb-description{
@@ -27,7 +26,12 @@ text-indent: 10px;
     font-size: 15px;
     border-bottom: 2px solid #cfcfcf;
 }
+
+.tb .table{
+    border: none;
+}
 table{
+    border: 1px solid #cfcfcf;
     width: 100%;
     height: auto;
     color: #808080;
@@ -94,12 +98,50 @@ table .mid-row{
     font-size: 13px;
 }
 
+.tb-table-Template{
+    width: 20%;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: left;
+    text-indent: 30px;
+}
+.tb-table-Templatecontents{
+    width: 60%;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: left;
+
+}
+.tb-table-Templatebtn{
+    width: 20%;
+    height: 20px;
+}
+.tb-contents-Templatecontents>p{
+    width: 95%;
+    padding: 20px 0px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 18px;
+}
+.tb-contents-Templatebtn{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 프로그레스 bar start */
+/*프로그레스 bar는 .bar의 width 가 바뀌면 퍼센티지가 올라가는 방식*/
 .ui.progress {
      position: relative;
      display: block;
      width: 150px;
     height: 20px;
-     border: none; */
+     border: none;
      margin: 1em 0 2.5em;
      box-shadow: none;
     background: rgba(0,0,0,.1);
@@ -109,6 +151,7 @@ table .mid-row{
 }
 
 .ui.progress .bar {
+    max-width: 100%;
     height: 20px;
     width: 32%;
 }
@@ -139,3 +182,4 @@ table .mid-row{
     font-weight: 700;
     text-align: left;
 }
+/* 프로그레스 bar end */
