@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+.control-wrap {
+    width: 435px;
+    height: 400px;
+    display: inline-block;
+    border: 1px soild #8b8989;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 20px;
+}
+.control-wrap .control-inner{
+    margin: 0px 78px;
+
+}
+.control-wrap .control-title {
+    margin: 52px;
+}
+.control-wrap .control-title h6{ font-weight: normal;}
+
+.control-wrap input[type='text'], .control-wrap input[type='email']{
+    border: 1px solid #8b8989;
+    border-left: none;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    text-indent: px;
+    display: block;
+    width: 80%;
+}
+
+.control-wrap .control-ico{
+    display: block;
+    width: 20%;;
+    background: url(../image/ico-total.png) no-repeat -414px -61px;
+    background-size: 950px 950px;
+    border: 1px solid #8b8989;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.control-wrap .control-emailico{
+    display: block;
+    width: 20%;;
+    background: url(../image/ico-total.png) no-repeat -306px 7px;
+    background-size: 850px 850px;
+    border: 1px solid #8b8989;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.control-wrap .control-box {
+    margin: 10px auto;
+    display: flex;
+    box-shadow: 0px 0px 30px #888888;
+}
+.control-wrap .control-remember{
+    font-size: 15px;
+
+
+}
+.control-wrap button{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+

@@ -12,6 +12,7 @@ input[type=email]::-ms-clear {
 
 /*inputbtn-sm start */
 .inputbtn-sm[type='text'],
+.inputbtn-sm[type='email'],
 .inputbtn-sm[type='password'],
 .inputbtn-sm[type='search']{
     display: block;
@@ -26,6 +27,7 @@ input[type=email]::-ms-clear {
 /*inputbtn-sm end */
 /*inputbtn-defalut start */
 .inputbtn-defalut[type='text'],
+.inputbtn-defalut[type='email'],
 .inputbtn-defalut[type='password'],
 .inputbtn-defalut[type='search']{
     display: block;
@@ -39,6 +41,7 @@ input[type=email]::-ms-clear {
 /*inputbtn-defalut end */
 /*inputbtn-lg start */
 .inputbtn-lg[type='text'],
+.inputbtn-lg[type='email'],
 .inputbtn-lg[type='password'],
 .inputbtn-lg[type='search']{
     display: block;

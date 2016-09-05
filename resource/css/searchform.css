@@ -1,17 +1,23 @@
 @charset "utf-8";
+
 /*IE selectbox 기본 화살표 제거 start */
+
 select::-ms-expand {
     display: none;
     border: none;
 }
+
+
 /*IE selectbox 기본 화살표 제거 end */
-select{
+
+select {
     border: none;
-    -webkit-appearance: none; /*chrome 기본 화살표 제거 */
+    -webkit-appearance: none;
+    /*chrome 기본 화살표 제거 */
     padding: 5px;
 }
 
-.searchform{
+.searchform {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
@@ -21,10 +27,13 @@ select{
 }
 
 .sfdropbtn {
+    width: 100%;
     display: inline-block;
     cursor: pointer;
     font-size: 20px;
     height: 43px;
+    background: url(../image/carret.png) no-repeat 95% 50%;
+    /* 화살표 모양의 이미지 */
 }
 
 .sfdropdown {
@@ -48,21 +57,19 @@ select{
 
 /* dropdown menu basic size end */
 
-
 .sfinputbtn-lg[type='text'],
 .sfinputbtn-lg[type='password'],
-.sfinputbtn-lg[type='search']{
+.sfinputbtn-lg[type='search'] {
     padding: 5px 6px;
     display: inline-block;
     border: none;
     width: 250px;
     font-size: 20px;
-
 }
 
-.sfsubmit{
+.sfsubmit {
     display: inline-block;
-    width:70px;
+    width: 70px;
     cursor: pointer;
     font-size: 20px;
     height: 43px;
@@ -70,11 +77,9 @@ select{
 }
 
 
-
 /* searchform-sm start */
 
-
-.searchform-sm{
+.searchform-sm {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
@@ -84,10 +89,13 @@ select{
 }
 
 .sfdropbtn-sm {
+    width: 100%;
     display: inline-block;
     cursor: pointer;
     font-size: 15px;
     height: 30px;
+    background: url(../image/carret.png) no-repeat 95% 50%;
+    /* 화살표 모양의 이미지 */
 }
 
 .sfdropdown-sm {
@@ -95,14 +103,15 @@ select{
     display: inline-block;
     border-right: 1px solid #cfcfcf;
     padding: 0px 5px;
+    width: 75px;
 }
+
 
 /* dropdown menu basic size end */
 
-
 .sfinputbtn-sm[type='text'],
 .sfinputbtn-sm[type='password'],
-.sfinputbtn-sm[type='search']{
+.sfinputbtn-sm[type='search'] {
     padding: 3px 5px;
     display: inline-block;
     border: none;
@@ -110,16 +119,15 @@ select{
     font-size: 15px;
 }
 
-.sfsubmit-sm{
+.sfsubmit-sm {
     display: inline-block;
-    width:70px;
+    width: 70px;
     cursor: pointer;
     font-size: 15px;
     height: 30px;
     vertical-align: middle;
     border-left: 1px solid #cfcfcf;
 }
-
 
 
 /* searchform-sm end */

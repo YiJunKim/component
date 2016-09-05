@@ -10,26 +10,26 @@
 
 
 .btn_basic{
-    width: 83px;
+    padding: 6px 16px;
     height: 42px;
     font-size: 17px;
 }
 
 
 .btn_big {
-    width: 124px;
+    padding: 10px 20px;
     height: 63px;
     font-size: 25px;
 }
 
 .btn_lg {
-    width: 102px;
+    padding: 8px 18px;
     height: 48px;
     font-size: 19px;
     }
 
 .btn_sm {
-    width: 73px;
+    padding: 4px 14px;
     height: 31px;
     font-size: 17px;
 }
